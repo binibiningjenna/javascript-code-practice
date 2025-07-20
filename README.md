@@ -2,4 +2,4 @@
 - Practicing JavaScript fundamentals and beyond
 - Drafting small experiments or logic solutions
 - Building muscle memory through repetition
-- Documenting your JavaScript learning journey
+- Documenting my JavaScript learning journey
