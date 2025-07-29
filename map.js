@@ -214,3 +214,22 @@ const monitorBuyer = [...orders.values()].find(order =>
   order.items.some(item => item.name === "Monitor")
 );
 console.log("Customer who bought a Monitor:", monitorBuyer?.customerName || "None");
+
+
+// MAP LOOP
+
+const map = new Map([
+  ["Jenna", 90],
+  ["Caleb", 85],
+  ["Luna", 95]
+]);
+
+// ✅ forEach
+map.forEach((value, key) => {
+  console.log(`${key}: ${value}`);
+});
+
+// ✅ for...of
+for (let [key, value] of map) {
+  console.log(`${key}: ${value}`);
+}
